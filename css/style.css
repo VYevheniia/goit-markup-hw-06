@@ -482,6 +482,7 @@ ul {
 
 .logo-space {
   padding: 60px 0;
+  width: 231px;
 }
 
 .address {
@@ -520,15 +521,11 @@ ul {
 }
 
 .our-socials {
-  width: 206px;
-  height: 80px;
-
-  padding-top: 72px;
+  margin-left: 70px;
 }
 
-.container-footer {
+.flex-container-footer {
   display: flex;
-  gap: 70px;
   align-items: baseline;
 }
 
@@ -562,6 +559,10 @@ ul {
   fill: var(--color-additional);
 }
 
+.subscribes {
+  margin-left: auto;
+}
+
 .input-subscribes {
   width: 358px;
   height: 50px;
@@ -578,15 +579,7 @@ ul {
   justify-content: center;
 }
 
-/* .sub-button-cont {
-  display: flex;
-  justify-content: center;
-} */
-
 .button-sub {
-  /* display: flex;
-  align-items: center;
-  gap: 10px; */
   position: relative;
   color: var(--color-additional);
   background-color: var(--color-accent);
@@ -798,6 +791,7 @@ ul {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  margin-bottom: 2px;
 }
 
 .closed:focus,
@@ -816,6 +810,7 @@ ul {
 }
 
 .form-label {
+  display: flex;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -868,7 +863,7 @@ ul {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 12px 16px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 
   resize: none;
 
@@ -883,6 +878,7 @@ ul {
 .checkbox {
   margin-bottom: 30px;
   display: flex;
+  margin-left: 12px;
 }
 
 .checkbox-title {
@@ -921,4 +917,7 @@ ul {
 .submit-button {
   display: block;
   margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  padding: 10px 52px;
 }
